@@ -13,7 +13,7 @@ program.parse(process.argv);
 
 const argv = program.opts();
 
-const contacts = require("./db/contacts");
+const contacts = require("./contacts");
 
 function invokeAction(argv) {
   switch (argv.action) {
